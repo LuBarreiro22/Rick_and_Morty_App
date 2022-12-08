@@ -1,0 +1,62 @@
+
+.frontCard{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position:relative;
+    flex-wrap: wrap;
+
+    width: 200px;
+    height: 200px;
+    top: 3rem;
+    
+    color: white; 
+
+    border: 1px solid white;
+    border-radius: 15px;
+    box-shadow:0 0 12px white;
+}
+
+.frontCard > button{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+
+    right: 0.50rem;
+    top: 0.4rem;
+    width: 1.3rem;
+    height: 1.3rem;
+
+    border: 1px solid white;
+    border-radius: 6px;
+
+    cursor: pointer;
+    background-color: red;
+    color:white;
+    font-size: 0.9rem;
+
+
+}
+.frontCard > button:hover{
+    background-color: rgb(145, 0, 0);
+}
+
+.frontCard > img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.link{
+    position: absolute;
+    bottom: 0.1rem;
+    left: 1rem;
+
+    border:7px none white;
+    color:black;
+    font-size: small;
+    font-style: italic;
+
+
+}

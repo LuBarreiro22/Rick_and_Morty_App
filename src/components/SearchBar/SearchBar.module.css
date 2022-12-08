@@ -1,0 +1,39 @@
+.containerSearch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.SearchBar {
+    border: 1px solid white;
+    border-radius: 7px;
+    box-shadow: 0 0 7px white;
+    
+    width: 300px;
+    height: 30px;
+    margin: 5px;
+}
+.SearchBar::placeholder {color:black;}
+
+.SearchBar:hover{
+    color: white;
+    background-color: rgb(124, 123, 123);
+}
+
+.button {
+    border: 1px solid white;
+    border-radius: 7px;
+    box-shadow:0 0 7px white;
+    color: black;
+
+    height: 30px;
+    margin-left: 3px;
+    cursor: pointer;
+
+}
+
+.button:hover{
+    color: white;
+    background-color: rgb(119, 119, 119);
+}

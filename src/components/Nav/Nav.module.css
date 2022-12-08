@@ -1,0 +1,47 @@
+.Nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(180, 89%, 46%, 0.342);
+    border-radius: 7px;
+    box-shadow: 1px 1px 7px rgba(255, 255, 255, 0.897);
+    gap:8rem;
+    width: 100%;
+    margin-top: 8px;
+    position: fixed;
+}
+
+.Home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0 0 7px rgb(255, 255, 255);
+    border-radius: 7px;
+    height: 30px;
+    width: 70px;
+}
+.Home:hover{
+    color: white;
+    background-color: rgb(124, 123, 123);
+}
+
+.About{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0 0 7px white;
+    border-radius: 7px;
+    height: 30px;
+    width: 70px;
+}
+.About:hover{
+    color: white;
+    background-color: rgb(124, 123, 123);
+}
+
