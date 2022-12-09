@@ -5,3 +5,19 @@
     flex-wrap: wrap;
     gap:2rem;
 }
+
+.Select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:2rem;
+
+    background-color: hsla(180, 89%, 46%, 0.342);
+    border-radius: 7px;
+    box-shadow: 1px 1px 7px rgba(255, 255, 255, 0.897);
+    width: 25%;
+    height: 5%;
+    position: absolute;
+    right: 550px;
+}
