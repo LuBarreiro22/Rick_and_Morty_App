@@ -1,12 +1,17 @@
-const fs = require("fs");
-const http = require("http");
-
+const express = require("express");
+const server = express();
+const morgan = require("morgan");
+const router = require("./routes/index");
+const favsRouter = require("./routes/favsRouter");
+const cors = require("cors");
 const PORT = 3001;
 
-const server = http.createServer((req, res) => {
-  res.send("Server created 🙌");
-});
+server.use(express.json());
+server.use(cors());
+server.use(morgan("dev"));
+server.use("/rickandmorty", router);
+server.use("/favs", favsRouter);
 
 server.listen(PORT, () => {
-  console.log("Server listen on port '3001'...");
+  console.log("Server raised in port " + PORT);
 });
