@@ -8,7 +8,7 @@ export default function About() {
           Bienvenidos a la Rick and Morty App
         </h1>
         <h4>
-          Soy Lucas Barreiro, Desarrollador Web Full Stack en proceso, y este es mi primer proyecto en React creando una aplicación tipo SPA(Single Page Application) consumiendo datos desde la API de Rick and Morty, la cual te permite agregar los personajes de esta serie animada e ir acumulándolos mediante su ID.También te permite ampliar la información de un personaje clickeando en su tarjeta.
+         Soy Lucas Barreiro, Desarrollador Web Full Stack, y esta es mi aplicación de Rick And Morty utilizando el stack "PERN", comunicando el front con el back y la DB. Te permite agregar los personajes de esta serie animada e ir acumulándolos mediante su ID, también ampliar la información de un personaje clickeando en su tarjeta, añadir los personajes que mas gusten a la sección de favoritos y aplicarles filtros de ascendente/descendente y por género.
           <br />
           <br />
           Tecnologías utilizadas:
@@ -23,13 +23,21 @@ export default function About() {
           <br />
           -Redux
           <br />
+          -NodeJS
+          <br />
+          -Express
+          <br />
+          -PostgreSQL
+          <br />
+          -Sequelize
+          <br />
           <br />
           <br />
           <br />
           <br />
           Espero que sea de su agrado.
         </h4>
-        <h6>Developed by: Lucas Barreiro</h6>
+        <h6>Desarrollado por: Lucas Barreiro</h6>
     </div>
   )
 }
