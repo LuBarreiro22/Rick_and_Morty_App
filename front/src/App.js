@@ -14,8 +14,8 @@ export default function App() {
   const navigate = useNavigate();
   const [characters, setCharacters] = useState([]);
   const [access, setAccess] = useState(false);
-  const username = "blucasmartin@gmail.com";
-  const password = "lucas123";
+  const username = "rick";
+  const password = "rick123";
 
   function login(userData) {
     if (userData.password === password && userData.username === username) {
