@@ -1,7 +1,7 @@
 # Rick_and_Morty_App
 
 🪪 Credentials: <br>
-🔹User: blucasmartin@gmail.com <br>
+🔹Username: blucasmartin@gmail.com <br>
 🔹Password: lucas123
 
 Link 👉 https://rickandmorty-app-lubarreiro.netlify.app
