@@ -1,4 +1,4 @@
-# Aplicación de Rick And Morty
+# Rick And Morty
 
 🪪 Credentials: <br>
 🔹Username: blucasmartin@gmail.com <br>
